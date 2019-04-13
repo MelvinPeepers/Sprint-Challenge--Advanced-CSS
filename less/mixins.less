@@ -1,1 +1,26 @@
 // Mixins Here
+
+.nav-h1 {
+    color: @ebony-clay;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-hover {
+    color: @shuttle-gray;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.btn-hover {
+    background-color: @waterloo;
+    color: @river-bend;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-btn(@font-size, @padding, @border-radius) {
+    font-size: @font-size;
+    padding: @padding;
+    border-radius: @border-radius;
+}
