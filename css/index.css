@@ -220,6 +220,9 @@ p {
   cursor: pointer;
   transition: color 0.3s;
 }
+.nav-container nav .active-link {
+  text-decoration: underline;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -232,10 +235,13 @@ footer {
 }
 .home .intro .main-header {
   border-radius: 4px;
+  width: 100%;
+  height: 200px;
 }
 @media (max-width: 500px) {
   .home .intro .main-header {
     width: 100%;
+    height: 100px;
   }
 }
 .home .intro h2 {
